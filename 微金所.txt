@@ -1,0 +1,5 @@
+微金所开发前的准备：
+template.html模板文件，base.css公共样式，fonts字体文件
+
+header头部：
+栅格系统，2523分配布局
