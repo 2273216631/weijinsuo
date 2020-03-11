@@ -3,3 +3,8 @@ template.html模板文件，base.css公共样式，fonts字体文件
 
 header头部：
 栅格系统，2523分配布局
+图片带border 但是上边距none 然后上移1px做到挡住父盒子下border
+nav布局：
+导航条取自bootstrap的导航条做部分修改
+修改style（高度，字体大小......）
+

@@ -47,44 +47,68 @@
     }
   }
 }
+
+/*导航样式*/
 .wjs_nav{
-    &.navbar{
-      margin-bottom: 0;
+  &.navbar{
+    margin-bottom: 0;
+  }
+  .navbar-brand{
+    height: 80px;
+    line-height:50px;
+    > .wjs_icon{
+      font-size: 40px;
     }
-    .navbar-brand{
-      height: 80px;
-      line-height:50px;
-      > .wjs_icon{
-        font-size: 40px;
-      }
-      > span:first-of-type{
-        color: @baseColor;
-      }
-      > span:last-of-type{
-        color: #333;
-      }
+    > span:first-of-type{
+      color: @baseColor;
     }
-    /*修改导航项的样式*/
-    .navbar-nav{
-      > li{
-        > a{
-          line-height: 50px;
-          font-size: 16px;
-        }
-        > a:hover,a:focus{
-          color: #777;
-          border-bottom: 3px solid @baseColor;
-        }
-      }
-      .active{
-        > a,a:hover,a:focus{
-          background-color:transparent;
-          border-bottom: 3px solid @baseColor;
-        }
-      }
-    }
-  
-    .navbar-toggle{
-      margin-top:23px;
+    > span:last-of-type{
+      color: #333;
     }
   }
+  /*修改导航项的样式*/
+  .navbar-nav{
+    > li{
+      > a{
+        line-height: 50px;
+        font-size: 16px;
+      }
+      > a:hover,a:focus{
+        color: #777;
+        border-bottom: 3px solid @baseColor;
+      }
+    }
+    .active{
+      > a,a:hover,a:focus{
+        background-color:transparent;
+        border-bottom: 3px solid @baseColor;
+      }
+    }
+  }
+
+  .navbar-toggle{
+    margin-top:23px;
+  }
+}
+/*轮播图样式*/
+.wjs_banner{
+  .mobileImg{
+    width: 100%;
+    display: block;
+  }
+  .mobileImg > img{
+    width: 100%;
+    display: block;
+  }
+  .pcImg{
+    width: 100%;
+    height: 410px;
+    display: block;
+    /*设置背景图片了*/
+
+    /*设置图片居中显示*/
+    background-position: center center;
+    /*设置背景图片的大小*/
+    background-size: cover;
+  }
+}
